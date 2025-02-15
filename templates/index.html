@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Light Control</title>
+    <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind CDN -->
+    <style>
+        body {
+            background-image: url('{{ url_for("static", filename="bg.png") }}');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center h-screen text-white text-center">
+    <div class="bg-black bg-opacity-50 p-10 rounded-xl shadow-lg">
+        <h2 class="text-3xl font-bold mb-4">🚦 Welcome to Smart Traffic Light Control</h2>
+        <a href="/login" class="px-6 py-2 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition">
+            Login to Admin Panel
+        </a>
+    </div>
+</body>
+</html>
