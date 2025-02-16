@@ -63,7 +63,7 @@ def change_timing():
         return "Warning: Security breach detected! System resetting..."
 
     if green == "60" and red == "30":
-        return "Flag: CTF{TR4FF1C_L1GHT_HACKED}"
+        return "Flag: innoverse{TR4FF1C_L1GHT_HACKED}"
     
     return "Timing changed successfully"
 
